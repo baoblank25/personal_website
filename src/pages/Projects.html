@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projects - Brian Bao Hoang's Portfolio showcasing ML and Software Engineering work">
+    <title>Projects - Brian Bao Hoang</title>
+    
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="navbar-container">
+            <a href="about.html" class="navbar-logo">BH</a>
+            <ul class="navbar-menu">
+                <li><a href="about.html" class="navbar-link">About</a></li>
+                <li><a href="projects.html" class="navbar-link active">Projects</a></li>
+                <li><a href="about.html#contact" class="navbar-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Page Header -->
+        <section class="page-header" id="projects-header">
+            <div class="container">
+                <h1>Projects & Skills</h1>
+                <p>Building solutions with modern technology</p>
+            </div>
+        </section>
+
+        <!-- Featured Project -->
+        <section class="featured-project-section" id="featured">
+            <div class="container">
+                <article class="featured-project">
+                    <div class="featured-image">
+                        <img src="../images/devils-invent.jpg" alt="Part's Tolerance Checker Prototype Team">
+                    </div>
+                    <div class="featured-content">
+                        <span class="badge">Featured Award</span>
+                        <h2>Part's Tolerance Checker Prototype 🏆</h2>
+                        <p class="award">2nd Place, Devil's Invent (Honeywell-sponsored)</p>
+                        <p>Built a CAD + C/C++ tolerance checker and led a 6-person project to demo in 48 hours—delivering a prototype that reduces rework, raises throughput, and cuts costs in the aerospace industry.</p>
+                        <ul class="highlights">
+                            <li>Delivered demo presentation and pitch to judges</li>
+                            <li>Handled Q&A on error margins and ROI</li>
+                            <li>Showcased stakeholder communication and product sense</li>
+                            <li>Honeywell-sponsored competition</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>CAD</span>
+                            <span>C/C++</span>
+                            <span>Aerospace</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Other Projects -->
+        <section class="projects-section" id="projects">
+            <div class="container">
+                <h2 class="section-title">Other Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <h3>Osu! Rank Predictor</h3>
+                        <p class="project-category">Machine Learning</p>
+                        <p>Developed a production-grade ensemble ML model (Random Forest + PyTorch NN) achieving 78% R² accuracy to predict competitive osu! player rankings.</p>
+                        <ul>
+                            <li>Created 25+ custom gameplay features</li>
+                            <li>Implemented log-scaled rank stratification</li>
+                            <li>15%+ improvement over single-model baselines</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Python</span>
+                            <span>PyTorch</span>
+                            <span>ML</span>
+                            <span>Scikit-learn</span>
+                        </div>
+                        <a href="https://github.com/baoblank25/osu_rank_predictor" target="_blank" rel="noopener noreferrer" class="project-link">View on GitHub →</a>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Secure System Design</h3>
+                        <p class="project-category">Security</p>
+                        <p>Designed a login system using Java + H2 database with hardened RBAC, session management, and audit logs addressing CWE-862.</p>
+                        <ul>
+                            <li>Implemented RBAC and session management</li>
+                            <li>Added login throttling and audit logs</li>
+                            <li>Rate limits to prevent brute-force attacks</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Java</span>
+                            <span>H2 DB</span>
+                            <span>Security</span>
+                            <span>OWASP</span>
+                        </div>
+                        <a href="https://github.com/baoblank25/Secure-System-Design-Addressing-Missing-Authorization-CWE-862-" target="_blank" rel="noopener noreferrer" class="project-link">View on GitHub →</a>
+                    </article>
+                    <article class="project-card">
+                        <h3>Hash Function Benchmark</h3>
+                        <p class="project-category">Data Structures</p>
+                        <p>Developed a benchmarking tool to evaluate 3+ hash function models, measuring insertion efficiency and collision rates across large datasets.</p>
+                        <ul>
+                            <li>Implemented timing and performance analysis to quantify efficiency</li>
+                            <li>Achieved up to 30% variation in average insertion times between algorithms</li>
+                            <li>Utilized data structures and profiling techniques to assess trade-offs in hash distribution, speed, and memory usage</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>C++</span>
+                            <span>Benchmarking</span>
+                            <span>Hash Functions</span>
+                            <span>Performance Analysis</span>
+                        </div>
+                        <a href="https://github.com/baoblank25/Hash_Function_Benchmark" target="_blank" rel="noopener noreferrer" class="project-link">View on GitHub →</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills-section" id="skills">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-group">
+                        <h3>Languages</h3>
+                        <div class="skill-list">
+                            <span>Java</span>
+                            <span>Python</span>
+                            <span>C/C++</span>
+                            <span>MATLAB</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h3>ML & Data</h3>
+                        <div class="skill-list">
+                            <span>PyTorch</span>
+                            <span>Scikit-learn</span>
+                            <span>TensorFlow</span>
+                            <span>Pandas</span>
+                            <span>NumPy</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h3>Backend</h3>
+                        <div class="skill-list">
+                            <span>Spring Boot</span>
+                            <span>Django</span>
+                            <span>SQL</span>
+                            <span>MySQL</span>
+                            <span>H2 DB</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h3>Tools & Platforms</h3>
+                        <div class="skill-list">
+                            <span>Git/GitHub</span>
+                            <span>Eclipse</span>
+                            <span>Linux</span>
+                            <span>Windows</span>
+                            <span>CAD</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Brian Bao Hoang. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
