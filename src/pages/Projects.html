@@ -42,15 +42,13 @@
                     </div>
                     <div class="featured-content">
                         <span class="badge">Featured Award</span>
-                        <h2>Part's Tolerance Checker Prototype</h2>
-                        <p class="award">2nd Place, Devil's Invent (Honeywell-sponsored)</p>
-                        <p>Built a CAD-integrated tolerance-checking prototype in C/C++ in 48 hours (6-person team); automated tolerance validation and pass/fail classification for an aerospace inspection workflow.</p>
+                        <h2>Part’s Tolerance Checker Prototype</h2>
+                        <p class="award">2nd Place ($5,000), Devil’s Invent (Honeywell-sponsored)</p>
+                        <p>Engineered an end-to-end hardware-software inspection pipeline in C/C++ with a 6-person team within 48 hours, outperforming 30+ teams through hardware integration and error analysis for aerospace manufacturing.</p>
                         <ul class="highlights">
-                            <li>Delivered demo presentation and pitch to judges</li>
-                            <li>Handled Q&A on error margins and ROI</li>
-                            <li>Showcased stakeholder communication and product sense</li>
-                            <li>Automated tolerance validation cutting inspection time by 50%+ and reduced rework vs manual inspection</li>
-                            <li>Integrated an ESP32 data pipeline using ultrasonic distance sensors, transferring dimensional and weight measurements via WiFi (HTTPClient) to Excel for automated tolerance-based pass/fail classification.</li>
+                            <li>Defended technical trade-offs on error margins and sensor calibration to industry judges, demonstrating ROI for aerospace workflows</li>
+                            <li>Co-built a data ingestion system using ESP32 and ultrasonic sensors to stream real-time dimensional data via WiFi/HTTP to Excel</li>
+                            <li>Automated pass/fail classification, reducing manual inspection latency by 50%</li>
                         </ul>
                         <div class="tech-tags">
                             <span>CAD</span>
@@ -68,14 +66,12 @@
                 <h2 class="section-title">Other Projects</h2>
                 <div class="projects-grid">
                     <article class="project-card">
-                        <h3>GitShipNote – AI-Powered Changelog Generator</h3>
+                        <h3>GitShipNote — AI-Powered Changelog Generator</h3>
                         <p class="project-category">Full-Stack Development</p>
-                        <p>Reduced manual documentation time significantly for developers by building and publishing an AI-powered VS Code extension that automatically categorizes 100+ git commits into structured changelogs using Claude API.</p>
+                        <p>Developed a VS Code extension that automates changelog generation for large-scale repositories, processing 500+ commits in seconds via LLM API integration.</p>
                         <ul>
-                            <li>Designed an end-to-end full-stack application that reduces changelog review time, allowing developers to focus more on coding</li>
-                            <li>Built Python/Flask backend, Next.js frontend, and TypeScript extension with GitHub OAuth integration</li>
-                            <li>Implemented client-side server architecture for secure Claude API integration</li>
-                            <li>Published to VS Code Marketplace and deployed web app to production</li>
+                            <li>Led end-to-end development of a full-stack platform (Flask, Next.js, TypeScript), implementing GitHub OAuth for secure repo data ingestion</li>
+                            <li>Automated commit categorization and changelog creation, reducing manual documentation time for developers</li>
                         </ul>
                         <div class="tech-tags">
                             <span>TypeScript</span>
@@ -92,13 +88,31 @@
                     </article>
 
                     <article class="project-card">
+                        <h3>Memor4 – Alzheimer’s Care Assistant & Recognition System</h3>
+                        <p class="project-category">AI/Healthcare</p>
+                        <p>Developed a real-time face recognition system in Python (FastAPI) to assist Alzheimer’s care, matching live video frames to DeepFace embeddings with sub-200ms inference and instant caregiver alerts.</p>
+                        <ul>
+                            <li>Built enrollment workflow: photo upload → OpenCV preprocessing → embedding generation → SQLite persistence</li>
+                            <li>Implemented “Sentinel Mode” to trigger alerts for patient allergies and safety risks</li>
+                            <li>Enabled live notifications to caregivers via WebSockets</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Python</span>
+                            <span>FastAPI</span>
+                            <span>OpenCV</span>
+                            <span>DeepFace</span>
+                            <span>WebSockets</span>
+                        </div>
+                        <a href="https://github.com/baoblank25/Memor4" target="_blank" rel="noopener noreferrer" class="project-link">View on GitHub →</a>
+                    </article>
+
+                    <article class="project-card">
                         <h3>Osu! Rank Predictor</h3>
                         <p class="project-category">Machine Learning</p>
-                        <p>Developed a production-grade ensemble ML model (Random Forest + PyTorch NN) achieving 78% R² accuracy to predict competitive Osu! player rankings.</p>
+                        <p>Designed an ensemble ML model (Random Forest + PyTorch NN) achieving 78% R² on competitive player ranking data, outperforming single-model baselines by 15%+.</p>
                         <ul>
-                            <li>Created 25+ custom gameplay features</li>
-                            <li>Implemented log-scaled rank stratification</li>
-                            <li>15%+ improvement over single-model baselines</li>
+                            <li>Engineered 25+ gameplay features and implemented log-scaled target stratification to resolve data imbalance</li>
+                            <li>Optimized model generalization using K-Fold Cross-Validation, preventing overfitting on sparse high-rank data</li>
                         </ul>
                         <div class="tech-tags">
                             <span>Python</span>
@@ -112,11 +126,10 @@
                     <article class="project-card">
                         <h3>Secure System Design</h3>
                         <p class="project-category">Security</p>
-                        <p>Built a Java CRUD application backed by an H2 database and enforced RBAC on every create/read/update/delete operation.</p>
+                        <p>Built a Java CRUD application with H2 database, enforcing RBAC and security best practices on all operations.</p>
                         <ul>
-                            <li>Implemented session-based authentication with login throttling (lockout after 5 failed attempts) and request rate limiting (10 requests/minute) to mitigate brute-force attacks.</li>
-                            <li>Added audit logging for security-relevant actions to support incident review and traceability.</li>
-                            <li>Wrote 20+ unit tests covering authentication and core workflows to improve regression safety.</li>
+                            <li>Implemented session-based authentication with login throttling and request rate limiting to mitigate brute-force attacks</li>
+                            <li>Added audit logging for security-relevant actions and wrote 20+ unit tests for core workflows</li>
                         </ul>
                         <div class="tech-tags">
                             <span>Java</span>
@@ -159,39 +172,40 @@
                             <span>Java</span>
                             <span>Python</span>
                             <span>C/C++</span>
-                            <span>MATLAB</span>
+                            <span>JavaScript/TypeScript</span>
                             <span>SQL</span>
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JavaScript</span>
+                            <span>MATLAB</span>
                         </div>
                     </div>
                     <div class="skill-group">
-                        <h3>ML & Data</h3>
+                        <h3>AI & Data</h3>
                         <div class="skill-list">
                             <span>PyTorch</span>
+                            <span>OpenCV</span>
                             <span>Scikit-learn</span>
-                            <span>TensorFlow</span>
                             <span>Pandas</span>
                             <span>NumPy</span>
+                            <span>DeepFace</span>
                         </div>
                     </div>
                     <div class="skill-group">
-                        <h3>Frameworks & Databases</h3>
+                        <h3>Web & Backend</h3>
                         <div class="skill-list">
-                            <span>Spring Boot</span>
-                            <span>Django</span>
-                            <span>MySQL</span>
-                            <span>H2 DB</span>
+                            <span>FastAPI</span>
+                            <span>Flask</span>
                             <span>Next.js</span>
+                            <span>WebSockets</span>
+                            <span>REST APIs</span>
+                            <span>SQLite</span>
+                            <span>H2</span>
                         </div>
                     </div>
                     <div class="skill-group">
                         <h3>Tools & Platforms</h3>
                         <div class="skill-list">
                             <span>Git/GitHub</span>
-                            <span>Eclipse</span>
-                            <span>Linux</span>
+                            <span>Linux/Unix</span>
+                            <span>VS Code</span>
                             <span>Windows</span>
                             <span>CAD</span>
                         </div>
